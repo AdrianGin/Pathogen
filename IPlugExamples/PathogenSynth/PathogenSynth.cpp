@@ -340,8 +340,6 @@ void PathogenSynth::ProcessDoubleReplacing(double** inputs, double** outputs, in
 			{
 				Filt2->processSample(nextSample, 1);
 			}
-			
-
 			*out2 += nextSample;
         }
       }
